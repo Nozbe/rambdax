@@ -1,5 +1,5 @@
 const { allFalse } = require('../dist/rambdax')
-const { exec } = require('helpers')
+const { exec } = require('./helpers')
 const { resolve } = require('path')
 
 const LIMIT = 4

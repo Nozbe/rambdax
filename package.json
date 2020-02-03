@@ -8,10 +8,6 @@
   "typings": "./index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "sync": "yarn sync:work&&yarn sync:after",
-    "sync:after": "rm -rf -d src/rambda/*.spec.js",
-    "sync:work": "node files/_modules/sync",
-    "do": "node files/_modules/do",
     "readme": "node files/_modules/createReadme",
     "docs": "docsify init ./docs",
     "test": "jest src",
@@ -49,7 +45,6 @@
     "docsify-cli": "4.3.0",
     "dtslint": "^0.9.8",
     "fs-extra": "^7.0.0",
-    "helpers": "https://github.com/selfrefactor/helpers#1.7.1",
     "jest": "24.9.0",
     "rambdax": "2.13.0",
     "ramda": "0.26.1",
@@ -75,38 +70,5 @@
     "dist",
     "src",
     "index.d.ts"
-  ],
-  "commitMessage": {
-    "feature": [
-      "method",
-      "sync",
-      "deprecate"
-    ],
-    "support": [
-      "build",
-      "lint",
-      "codestyle",
-      "clean",
-      "prepublish",
-      "typescript",
-      "sync",
-      "todo",
-      "script"
-    ],
-    "docs": [
-      "method",
-      "build",
-      "docsify",
-      "changelog",
-      "fix"
-    ],
-    "test": [
-      "method"
-    ],
-    "typings": [
-      "rambda",
-      "fix"
-    ],
-    "workInProgress": "typings tests"
-  }
+  ]
 }

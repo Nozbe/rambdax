@@ -1,5 +1,5 @@
 import { pipedAsync } from './pipedAsync'
-import { delay } from './delay'
+import { delay } from './_testonly/delay'
 import { add } from './rambda/add'
 
 test('', async () => {

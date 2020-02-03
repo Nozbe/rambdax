@@ -1,5 +1,5 @@
 import { mapFastAsync } from './mapFastAsync'
-import { composeAsync } from './composeAsync'
+import { composeAsync } from './_testonly/composeAsync'
 import { map } from './rambda/map'
 
 const delay = a =>
